@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "madeinabyss",
+  "version": "${version}",
+
+  "name": "made in abyss dimensions mod",
+  "description": "a mod that adds the layers of the abyss as dimensions. not super accurate to the anime/manga because world gen is hard, sorry :(",
+  "authors": [
+    "fuffypanda"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.jpg",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fuffypanda.madeinabyss.MadeInAbyss"
+    ]
+  },
+  "mixins": [
+    "madeinabyss.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
