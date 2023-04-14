@@ -1,0 +1,16 @@
+{
+  "type": "madeinabyss:layer2",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "scale": 1,
+      "biomes": [
+        "minecraft:badlands",
+        "minecraft:taiga",
+        "minecraft:jungle"
+      ]
+    }
+  }
+}
