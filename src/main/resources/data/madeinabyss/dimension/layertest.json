@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:layertest",
+  "type": "madeinabyss:layertest",
   "generator": {
     "type": "minecraft:noise",
     "settings": "madeinabyss:ceiling_noise",
