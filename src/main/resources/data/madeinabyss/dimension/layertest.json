@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:layertest",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "madeinabyss:ceiling_noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "madeinabyss:lush_cave_edited"
+    }
+  }
+}
