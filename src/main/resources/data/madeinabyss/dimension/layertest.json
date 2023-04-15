@@ -2,10 +2,35 @@
   "type": "madeinabyss:layertest",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "madeinabyss:ceiling_noise",
+    "settings": "minecraft:overworld",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "madeinabyss:lush_cave_edited"
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "madeinabyss:lush_cave_edited",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.375
+          }
+        },
+        {
+          "biome": "minecraft:stony_shore",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 1.1,
+            "offset": 0.175
+          }
+        }
+      ]
     }
   }
 }
