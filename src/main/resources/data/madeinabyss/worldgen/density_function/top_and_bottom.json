@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:range_choice",
+      "input": "minecraft:y",
+      "min_inclusive": 256,
+      "max_exclusive": 320,
+      "when_in_range": "minecraft:y",
+      "when_out_of_range": "minecraft:zero"
+    },
+    "argument2": "minecraft:overworld/caves/pillars"
+  },
+  "argument2": {
+    "type": "minecraft:abs",
+    "argument": {
+      "type": "minecraft:range_choice",
+      "input": "minecraft:y",
+      "min_inclusive": -64,
+      "max_exclusive": 0,
+      "when_in_range": "minecraft:y",
+      "when_out_of_range": "minecraft:zero"
+    }
+  }
+}
