@@ -14,9 +14,9 @@
       "offset": 2
     },
     "music": {
-      "sound": "minecraft:music.overworld.lush_caves",
-      "min_delay": 12000,
-      "max_delay": 24000,
+      "sound": "madeinabyss:madeinabyss_song_1",
+      "min_delay": 1,
+      "max_delay": 2,
       "replace_current_music": false
     }
   },
@@ -34,8 +34,8 @@
   "carvers": {},
   "features": [
     [
-      "madeinabyss:stone_columns",
-      "madeinabyss:stone_pillars"
+      "madeinabyss:stone_pillars",
+      "madeinabyss:pillar_tree"
     ],
     [],
     [],

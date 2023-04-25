@@ -4,6 +4,7 @@
   "package": "net.fuffypanda.madeinabyss.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ServerPlayerMixin"
   ],
   "client": [
     "ExampleMixin"

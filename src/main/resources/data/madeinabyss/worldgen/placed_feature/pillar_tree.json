@@ -1,9 +1,9 @@
 {
-  "feature": "minecraft:large_basalt_columns",
+  "feature": "wiki-example:example_feature",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 10
+      "count": 2
     },
     {
       "type": "minecraft:in_square"

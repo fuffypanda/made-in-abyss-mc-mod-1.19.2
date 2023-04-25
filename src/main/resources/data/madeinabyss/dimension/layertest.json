@@ -5,7 +5,7 @@
     "settings": "madeinabyss:layer2_generator",
     "biome_source": {
       "type": "minecraft:fixed",
-      "biome": "madeinabyss:lush_cave_edited"
+      "biome": "madeinabyss:layer2_biome"
     }
   }
 }

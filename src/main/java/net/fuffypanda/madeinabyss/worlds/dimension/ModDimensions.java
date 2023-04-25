@@ -21,6 +21,10 @@ public class ModDimensions {
             new Identifier(MadeInAbyss.MOD_ID, "layertest"));
     public static final RegistryKey<DimensionType> LAYERTEST_TYPE_KEY = RegistryKey.of(Registry.DIMENSION_TYPE_KEY, LAYERTEST_DIMENSION_KEY.getValue());
 
+    public static RegistryKey<World> getLayerTestDimensionKey() {
+        return LAYERTEST_DIMENSION_KEY;
+    }
+
     public static void register() {
         MadeInAbyss.LOGGER.debug("Registering ModDimensions for " + MadeInAbyss.MOD_ID);
     }

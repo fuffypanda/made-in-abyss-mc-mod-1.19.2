@@ -15,7 +15,7 @@
       "input": "minecraft:y",
       "min_inclusive": -64,
       "max_exclusive": -44,
-      "when_in_range": "minecraft:y",
+      "when_in_range": "minecraft:zero",
       "when_out_of_range": "minecraft:zero"
     }
   }
